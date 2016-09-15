@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D349DB061D87FD380079DF2B /* CreatingMealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D349DB051D87FD380079DF2B /* CreatingMealTableViewController.swift */; };
 		D3A725DB1D815F020015FFAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A725DA1D815F020015FFAA /* AppDelegate.swift */; };
 		D3A725DD1D815F020015FFAA /* CurrentDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A725DC1D815F020015FFAA /* CurrentDayViewController.swift */; };
 		D3A725E01D815F020015FFAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A725DE1D815F020015FFAA /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D349DB051D87FD380079DF2B /* CreatingMealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatingMealTableViewController.swift; sourceTree = "<group>"; };
 		D3A725D71D815F020015FFAA /* EatingJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EatingJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3A725DA1D815F020015FFAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3A725DC1D815F020015FFAA /* CurrentDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentDayViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				D3A725DC1D815F020015FFAA /* CurrentDayViewController.swift */,
+				D349DB051D87FD380079DF2B /* CreatingMealTableViewController.swift */,
 				D3A725DE1D815F020015FFAA /* Main.storyboard */,
 				D3A725F31D81AA440015FFAA /* MealCell.swift */,
 				D3A725F21D81A40C0015FFAA /* Core Data */,
@@ -164,6 +167,7 @@
 				D3A725F41D81AA440015FFAA /* MealCell.swift in Sources */,
 				D3A725F11D81A0B20015FFAA /* Meal.swift in Sources */,
 				D3A725E31D815F020015FFAA /* EatingJournal.xcdatamodeld in Sources */,
+				D349DB061D87FD380079DF2B /* CreatingMealTableViewController.swift in Sources */,
 				D3A725DD1D815F020015FFAA /* CurrentDayViewController.swift in Sources */,
 				D3A725DB1D815F020015FFAA /* AppDelegate.swift in Sources */,
 			);
@@ -317,6 +321,7 @@
 				D3A725EE1D815F020015FFAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
